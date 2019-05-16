@@ -45,7 +45,7 @@ A simple API relating to Customers of Alinta Energy
 * There is another GET Request that returns a customer based on the Id provided.
 * The following is an example of a GET Request with Id.
 
-![Get Request with Id](https://github.com/jwong1512/alinta-api/blob/master/Images/get_request_with_Id.gif)
+![Get Request with Id](https://github.com/jwong1512/alinta-api/blob/master/Images/get_request_with_id.gif)
 
 ### POST Request
 
