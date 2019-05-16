@@ -38,14 +38,14 @@ A simple API relating to Customers of Alinta Energy
 * If no query string variable is passed through the Url then the GET Request sorts the Customers in order of how they appear in the Data Store.
 * The following is an example of a GET 
 
-![Get Request with querystring variable](https://github.com/jwong1512/alinta-api/blob/master/Images/get_request_with_querystring_variable.gif)
+    ![Get Request with querystring variable](https://github.com/jwong1512/alinta-api/blob/master/Images/get_request_with_querystring_variable.gif)
 
 ### GET Request with Id
 
 * There is another GET Request that returns a customer based on the Id provided.
 * The following is an example of a GET Request with Id.
 
-![Get Request with Id](https://github.com/jwong1512/alinta-api/blob/master/Images/get_request_with_id.gif)
+    ![Get Request with Id](https://github.com/jwong1512/alinta-api/blob/master/Images/get_request_with_id.gif)
 
 ### POST Request
 
@@ -54,21 +54,21 @@ A simple API relating to Customers of Alinta Energy
 * The **dateOfBirth** field can be written as a string with the format *yyyy-MM-dd*.
 * An example of a POST Request is the following:
 
-![Post Request](https://github.com/jwong1512/alinta-api/blob/master/Images/post_request.gif)
+    ![Post Request](https://github.com/jwong1512/alinta-api/blob/master/Images/post_request.gif)
 
 ### PUT Request
 
 * The Put Request takes in 2 parameters, the **Id** and the new **Customer Object**.
 * An example of the PUT Request is as follows:
 
-![Put Request](https://github.com/jwong1512/alinta-api/blob/master/Images/put_request.gif)
+    ![Put Request](https://github.com/jwong1512/alinta-api/blob/master/Images/put_request.gif)
 
 ### DELETE Request
 
 * The Delete Request takes in 1 parameter, the **Id** of the customer you want to delete.
 * Below is an example of a DELETE Request:
 
-![Put Request](https://github.com/jwong1512/alinta-api/blob/master/Images/delete_request.gif)
+    ![Put Request](https://github.com/jwong1512/alinta-api/blob/master/Images/delete_request.gif)
 
 ### SearchByName Method
 
@@ -76,4 +76,4 @@ A simple API relating to Customers of Alinta Energy
 * The search criteria is passed through as query string variables in a GET Request.
 * An example of executing the method in Postman is shown below:
 
-![SearchByName Method](https://github.com/jwong1512/alinta-api/blob/master/Images/searchbyname_method.gif)
+    ![SearchByName Method](https://github.com/jwong1512/alinta-api/blob/master/Images/searchbyname_method.gif)
