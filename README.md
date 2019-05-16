@@ -19,7 +19,7 @@ A simple API relating to Customers of Alinta Energy
 
 1. Use Postman to send your Requests.
 
-![Postman Get Request](https://github.com/jwong1512/alinta-api/blob/master/Images/postman_get_request.gif)
+    ![Postman Get Request](https://github.com/jwong1512/alinta-api/blob/master/Images/postman_get_request.gif)
 
 ## Swagger Instructions
 
