@@ -9,8 +9,6 @@ A simple API relating to Customers of Alinta Energy
 
 1. Navigate to the **alinta-api\alintaApi\alintaApi.sln** file. Double click on the solution to open it in Visual Studio.
 
-![Open the Solution](https://github.com/jwong1512/alinta-api/blob/master/Images/open_alinta-api_solution.gif)
-
 1. In Visual Studio, run the application.
 
 1. The Web Browser should appear that immediately navigates to **https://localhost:44333/api/customers** and displays the list of customers.
