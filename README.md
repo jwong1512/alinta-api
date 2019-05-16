@@ -9,17 +9,17 @@ A simple API relating to Customers of Alinta Energy
 
 1. Navigate to the **alinta-api\alintaApi\alintaApi.sln** file. Double click on the solution to open it in Visual Studio.
 
-![Open the Solution](open_alinta-api_solution.gif)
+![Open the Solution](https://github.com/jwong1512/alinta-api/tree/master/Images/open_alinta-api_solution.gif)
 
 1. In Visual Studio, run the application.
 
 1. The Web Browser should appear that immediately navigates to **https://localhost:44333/api/customers** and displays the list of customers.
 
-![Display Data in Browser](api_data.gif)
+![Display Data in Browser](https://github.com/jwong1512/alinta-api/tree/master/Images/api_data.gif)
 
 1. Use Postman to send your Requests.
 
-![Postman Get Request](postman_get_request.gif)
+![Postman Get Request](https://github.com/jwong1512/alinta-api/tree/master/Images/postman_get_request.gif)
 
 ## Swagger Instructions
 
@@ -38,14 +38,14 @@ A simple API relating to Customers of Alinta Energy
 * If no query string variable is passed through the Url then the GET Request sorts the Customers in order of how they appear in the Data Store.
 * The following is an example of a GET 
 
-![Get Request with querystring variable](get_request_with_querystring_variable.gif)
+![Get Request with querystring variable](https://github.com/jwong1512/alinta-api/tree/master/Images/get_request_with_querystring_variable.gif)
 
 ### GET Request with Id
 
 * There is another GET Request that returns a customer based on the Id provided.
 * The following is an example of a GET Request with Id.
 
-![Get Request with Id](get_request_with_Id.gif)
+![Get Request with Id](https://github.com/jwong1512/alinta-api/tree/master/Images/get_request_with_Id.gif)
 
 ### POST Request
 
@@ -54,21 +54,21 @@ A simple API relating to Customers of Alinta Energy
 * The **dateOfBirth** field can be written as a string with the format *yyyy-MM-dd*.
 * An example of a POST Request is the following:
 
-![Post Request](post_request.gif)
+![Post Request](https://github.com/jwong1512/alinta-api/tree/master/Images/post_request.gif)
 
 ### PUT Request
 
 * The Put Request takes in 2 parameters, the **Id** and the new **Customer Object**.
 * An example of the PUT Request is as follows:
 
-![Put Request](put_request.gif)
+![Put Request](https://github.com/jwong1512/alinta-api/tree/master/Images/put_request.gif)
 
 ### DELETE Request
 
 * The Delete Request takes in 1 parameter, the **Id** of the customer you want to delete.
 * Below is an example of a DELETE Request:
 
-![Put Request](delete_request.gif)
+![Put Request](https://github.com/jwong1512/alinta-api/tree/master/Images/delete_request.gif)
 
 ### SearchByName Method
 
@@ -76,4 +76,4 @@ A simple API relating to Customers of Alinta Energy
 * The search criteria is passed through as query string variables in a GET Request.
 * An example of executing the method in Postman is shown below:
 
-![SearchByName Method](searchbyname_method.gif)
+![SearchByName Method](https://github.com/jwong1512/alinta-api/tree/master/Images/searchbyname_method.gif)
